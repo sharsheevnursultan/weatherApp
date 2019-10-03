@@ -6,7 +6,7 @@ const Weather = (props) => (
         <div>
             {props.city && props.country && <h4> Город: <span>{props.city}, {props.country}</span></h4>}
             {props.temperature && <h4> Температура: <span>{props.temperature}</span> °C</h4>}
-            {props.humidity && <h4> Влажность: <span>{props.humidity} %</span></h4>}
+            {props.humidity && <h4> Влажность: <span>{props.humidity} </span> %</h4>}
             {props.speed && <h4> Ветер: <span>{props.speed}</span> м/с</h4>}
             {props.sunrise && <h4> Восход: <span>{props.sunrise}</span></h4>}
             {props.sunset && <h4> Закат: <span>{props.sunset}</span></h4>}
