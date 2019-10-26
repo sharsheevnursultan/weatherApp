@@ -15,7 +15,7 @@ const Weather = (props) => (
             {props.error && <h4> <div>{props.error}</div></h4>}
         </div>
         <div>
-            {props.weatherIcon && <h4><span><img src={'http://openweathermap.org/img/w/' + props.weatherIcon + '.png'} alt={props.description}/></span></h4>}
+            {props.weatherIcon && <h4><span><img src={'https://openweathermap.org/img/w/' + props.weatherIcon + '.png'} alt={props.description}/></span></h4>}
         </div>
     </div>
 );
